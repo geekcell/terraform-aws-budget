@@ -38,7 +38,12 @@ Comment in these badges if they apply to the repository.
 
 -->
 
+# Terraform AWS Budgets
 
+Terraform module which creates an AWS Budgets for you.
+
+The focus on this module lies within it's simplicity by providing default values
+that should make sense for most use cases.
 
 ## Inputs
 
@@ -61,7 +66,7 @@ No outputs.
 
 ## Resources
 
-- resource.aws_budgets_budget.main (main.tf#1)
+- resource.aws_budgets_budget.main (main.tf#9)
 - data source.aws_caller_identity.current (data.tf#1)
 
 # Examples
