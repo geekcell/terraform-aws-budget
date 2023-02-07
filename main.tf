@@ -1,3 +1,11 @@
+/**
+ * # Terraform AWS Budgets
+ *
+ * Terraform module which creates an AWS Budgets for you.
+ *
+ * The focus on this module lies within it's simplicity by providing default values
+ * that should make sense for most use cases.
+ */
 resource "aws_budgets_budget" "main" {
   for_each = { for i, budget in var.budgets : budget.name => budget }
 
