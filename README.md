@@ -1,9 +1,6 @@
 <!-- BEGIN_TF_DOCS -->
 [![Geek Cell GmbH](https://raw.githubusercontent.com/geekcell/template-terraform-module/main/docs/assets/logo.svg)](https://www.geekcell.io/)
 
-<!--
-Comment in these badges if they apply to the repository.
-
 ### Code Quality
 [![License](https://img.shields.io/github/license/geekcell/terraform-aws-budgets)](https://github.com/geekcell/terraform-aws-budgets/blob/master/LICENSE)
 [![GitHub release (latest tag)](https://img.shields.io/github/v/release/geekcell/terraform-aws-budgets?logo=github&sort=semver)](https://github.com/geekcell/terraform-aws-budgets/releases)
@@ -35,8 +32,6 @@ Comment in these badges if they apply to the repository.
 [![Infrastructure Tests](https://www.bridgecrew.cloud/badges/github/geekcell/terraform-aws-budgets/nist)](https://www.bridgecrew.cloud/link/badge?vcs=github&fullRepo=geekcell%2Fterraform-aws-budgets&benchmark=NIST-800-53)
 [![Infrastructure Tests](https://www.bridgecrew.cloud/badges/github/geekcell/terraform-aws-budgets/hipaa)](https://www.bridgecrew.cloud/link/badge?vcs=github&fullRepo=geekcell%2Fterraform-aws-budgets&benchmark=HIPAA)
 [![Infrastructure Tests](https://www.bridgecrew.cloud/badges/github/geekcell/terraform-aws-budgets/fedramp_moderate)](https://www.bridgecrew.cloud/link/badge?vcs=github&fullRepo=geekcell%2Fterraform-aws-budgets&benchmark=FEDRAMP+%28MODERATE%29)
-
--->
 
 # Terraform AWS Budgets
 
