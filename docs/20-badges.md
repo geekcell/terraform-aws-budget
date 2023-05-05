@@ -5,6 +5,10 @@
 [![Validate](https://github.com/geekcell/terraform-aws-budgets/actions/workflows/validate.yaml/badge.svg)](https://github.com/geekcell/terraform-aws-budgets/actions/workflows/validate.yaml)
 [![Lint](https://github.com/geekcell/terraform-aws-budgets/actions/workflows/linter.yaml/badge.svg)](https://github.com/geekcell/terraform-aws-budgets/actions/workflows/linter.yaml)
 
+<!--
+
+Comment in once Bridgecrew has been configured
+
 ### Security
 [![Infrastructure Tests](https://www.bridgecrew.cloud/badges/github/geekcell/terraform-aws-budgets/general)](https://www.bridgecrew.cloud/link/badge?vcs=github&fullRepo=geekcell%2Fterraform-aws-budgets&benchmark=INFRASTRUCTURE+SECURITY)
 
@@ -29,3 +33,5 @@
 [![Infrastructure Tests](https://www.bridgecrew.cloud/badges/github/geekcell/terraform-aws-budgets/nist)](https://www.bridgecrew.cloud/link/badge?vcs=github&fullRepo=geekcell%2Fterraform-aws-budgets&benchmark=NIST-800-53)
 [![Infrastructure Tests](https://www.bridgecrew.cloud/badges/github/geekcell/terraform-aws-budgets/hipaa)](https://www.bridgecrew.cloud/link/badge?vcs=github&fullRepo=geekcell%2Fterraform-aws-budgets&benchmark=HIPAA)
 [![Infrastructure Tests](https://www.bridgecrew.cloud/badges/github/geekcell/terraform-aws-budgets/fedramp_moderate)](https://www.bridgecrew.cloud/link/badge?vcs=github&fullRepo=geekcell%2Fterraform-aws-budgets&benchmark=FEDRAMP+%28MODERATE%29)
+
+-->
