@@ -48,9 +48,9 @@ resource "aws_budgets_budget" "main" {
 }
 
 module "notification" {
-  source = "github.com/geekcell/terraform-aws-sns-email-notification?ref=v1.0"
+  source = "github.com/geekcell/terraform-aws-sns-email-notification?ref=v1.1"
 
-  name            = var.name
+  name            = "${var.name}-budgets"
   email_addresses = var.recipients
 
   tags = var.tags
