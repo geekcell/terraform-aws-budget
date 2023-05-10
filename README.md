@@ -63,7 +63,6 @@ to effectively manage their AWS costs.
 | <a name="input_budgets"></a> [budgets](#input\_budgets) | The list of budget. | <pre>list(object({<br>    name              = string<br>    budget_type       = string<br>    limit_amount      = string<br>    limit_unit        = string<br>    time_period_start = string<br>    time_period_end   = string<br>    time_unit         = string<br><br>    cost_filter = optional(map(list(string)))<br><br>    notification = object({<br>      comparison_operator = string<br>      threshold           = string<br>      threshold_type      = string<br>      notification_type   = string<br>    })<br>  }))</pre> | <pre>[<br>  {<br>    "budget_type": "COST",<br>    "limit_amount": "200",<br>    "limit_unit": "USD",<br>    "name": "budget-account-monthly",<br>    "notification": {<br>      "comparison_operator": "GREATER_THAN",<br>      "notification_type": "FORECASTED",<br>      "threshold": "100",<br>      "threshold_type": "PERCENTAGE"<br>    },<br>    "time_period_end": "2087-06-15_00:00",<br>    "time_period_start": "2023-01-01_00:00",<br>    "time_unit": "MONTHLY"<br>  }<br>]</pre> | no |
 | <a name="input_name"></a> [name](#input\_name) | The name of the budget. | `string` | n/a | yes |
 | <a name="input_recipients"></a> [recipients](#input\_recipients) | The email addresses to send notifications to. | `list(string)` | n/a | yes |
-| <a name="input_tags"></a> [tags](#input\_tags) | Tags to add to the AWS Backup. | `map(any)` | `{}` | no |
 
 ## Outputs
 

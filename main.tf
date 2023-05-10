@@ -39,19 +39,10 @@ resource "aws_budgets_budget" "main" {
   }
 
   notification {
-    comparison_operator       = each.value.notification.comparison_operator
-    notification_type         = each.value.notification.notification_type
-    subscriber_sns_topic_arns = [module.notification.arn]
-    threshold                 = each.value.notification.threshold
-    threshold_type            = each.value.notification.threshold_type
+    comparison_operator        = each.value.notification.comparison_operator
+    notification_type          = each.value.notification.notification_type
+    subscriber_email_addresses = var.recipients
+    threshold                  = each.value.notification.threshold
+    threshold_type             = each.value.notification.threshold_type
   }
-}
-
-module "notification" {
-  source = "github.com/geekcell/terraform-aws-sns-email-notification?ref=v1.1"
-
-  name            = "${var.name}-budgets"
-  email_addresses = var.recipients
-
-  tags = var.tags
 }
