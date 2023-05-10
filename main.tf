@@ -46,5 +46,3 @@ resource "aws_budgets_budget" "main" {
     threshold_type             = each.value.notification.threshold_type
   }
 }
-
-

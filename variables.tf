@@ -1,10 +1,3 @@
-# Context
-variable "tags" {
-  description = "Tags to add to the AWS Backup."
-  default     = {}
-  type        = map(any)
-}
-
 # AWS Budgets
 variable "budgets" {
   default = [
