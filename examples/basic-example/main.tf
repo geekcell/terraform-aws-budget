@@ -1,6 +1,7 @@
 module "example" {
   source = "../../"
-  name   = "my-budget"
+
+  name = var.name
 
   recipients = ["no-reply@example.org"]
 }
