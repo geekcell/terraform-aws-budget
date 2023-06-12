@@ -1,6 +1,6 @@
 variable "name" {
-  default     = "my-bucket"
-  description = "Bucket name."
+  default     = "budget"
+  description = "Budget name."
   type        = string
 }
 
