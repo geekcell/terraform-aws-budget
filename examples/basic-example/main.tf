@@ -6,7 +6,7 @@ module "basic-example" {
 
   budgets = [
     {
-      name   = var.name
+      name = var.name
 
       budget_type  = "COST"
       limit_amount = var.amount
