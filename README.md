@@ -72,7 +72,7 @@ No outputs.
 
 | Name | Version |
 |------|---------|
-| <a name="provider_aws"></a> [aws](#provider\_aws) | >= 4.4 |
+| <a name="provider_aws"></a> [aws](#provider\_aws) | >= 4.4, < 5.0 |
 
 ## Resources
 
