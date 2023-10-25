@@ -49,12 +49,12 @@ run "basic_budget" {
   }
 
   assert {
-    condition     =  aws_budgets_budget.main["test-budget-1"].limit_amount == "50"
+    condition     = aws_budgets_budget.main["test-budget-1"].limit_amount == "50"
     error_message = "Expected test-budget-1 limit amount to be 50."
   }
 
   assert {
-    condition     =  aws_budgets_budget.main["test-budget-1"].limit_unit == "EUR"
+    condition     = aws_budgets_budget.main["test-budget-1"].limit_unit == "EUR"
     error_message = "Expected test-budget-1 limit unit to be EUR."
   }
 
