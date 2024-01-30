@@ -31,7 +31,7 @@ resource "aws_budgets_budget" "main" {
   time_period_end   = each.value.time_period_end
 
   dynamic "cost_filter" {
-    for_each = each.value.cost_filter == null ? [] : [each.value.cost_filter]
+    for_each = each.value.cost_filter == null ? {} : each.value.cost_filter
     content {
       name   = cost_filter.key
       values = cost_filter.value
